@@ -1,25 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spandan Bhandari | Flutter Developer</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #f9f9f9;
+      color: #333;
     }
     header {
-      background-color: #1e90ff;
+      background-color: #004aad;
       color: white;
       padding: 20px;
       text-align: center;
     }
     nav {
-      background-color: #333;
+      background-color: #222;
       padding: 10px;
       text-align: center;
     }
@@ -29,19 +29,35 @@
       text-decoration: none;
     }
     .container {
-      padding: 20px;
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
     }
     h2 {
-      color: #1e90ff;
+      border-bottom: 2px solid #004aad;
+      padding-bottom: 5px;
+      color: #004aad;
     }
-    .app-card {
-      background: white;
-      margin-bottom: 15px;
+    h3 {
+      margin-top: 25px;
+      color: #222;
+    }
+    .app-block {
+      background-color: #fff;
+      margin: 10px 0;
       padding: 15px;
-      border-left: 4px solid #1e90ff;
+      border-left: 4px solid #004aad;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .app-block p {
+      margin: 5px 0;
+    }
+    .store-links a {
+      color: #1e90ff;
+      margin-right: 10px;
     }
     footer {
-      background: #222;
+      background-color: #222;
       color: white;
       text-align: center;
       padding: 20px;
@@ -52,42 +68,117 @@
 <body>
   <header>
     <h1>Spandan Bhandari</h1>
-    <p>Flutter Developer | 4+ Years Experience | Sydney, Australia</p>
+    <p>Flutter Developer | 4+ Years of Experience | Sydney, Australia</p>
   </header>
   <nav>
     <a href="#about">About</a>
-    <a href="#apps">Applications</a>
+    <a href="#apps">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
   <div class="container">
     <section id="about">
       <h2>About Me</h2>
-      <p>I’m a Flutter Developer with over 4 years of experience creating scalable, cross-platform mobile applications for domains like e-commerce, healthcare, education, and logistics. I follow Clean Architecture and MVVM principles.</p>
+      <p>I am a Flutter Developer with over 4 years of professional experience building cross-platform mobile applications for e-commerce, healthcare, education, logistics, and more. I’m proficient in clean architecture (MVVM), UI/UX principles, and modern development tools.</p>
     </section>
 
     <section id="apps">
-      <h2>Applications Built</h2>
-      <div class="app-card"><strong>AB Group</strong>: Restorma – Restaurant Management App (<a href="#">Play Store</a>, <a href="#">App Store</a>)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">MyPeopler</a> – Employee Management (Play Store, App Store)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">Proc MIS</a> – Workflow Management (Play Store, App Store)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">PBS Nepal</a> – Employee GPS Tracking (Play Store)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">Lyceex</a> – School Management (Play Store)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">Hospital Care Plus</a> – Patient App (Play Store, App Store)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">Pharmacy Hospital Care Plus</a> – Pharmacy App (Play Store, App Store)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">Restorma Chef</a> – Kitchen App (Play Store, App Store)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">Smart Gym Nepal</a> – Gym Management (Play Store, App Store)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">Hot n Spicy Kitchen</a> – Customer App (Play Store, App Store)</div>
-      <div class="app-card"><strong>AB Group</strong>: <a href="#">Blushrush Nepal</a> – Ecommerce (Play Store, App Store)</div>
-      <div class="app-card"><strong>Easy Assurance</strong>: <a href="#">Smart Karobaar</a> – Trading App (Play Store)</div>
-      <div class="app-card"><strong>Easy Assurance</strong>: <a href="#">Saathi</a> – Ride Sharing</div>
-      <div class="app-card"><strong>Easy Assurance</strong>: <a href="https://github.com">CPN-US</a> – Political Party App</div>
-      <div class="app-card"><strong>Easy Assurance</strong>: <a href="https://github.com">Contact List App</a> – Employee Directory</div>
-      <div class="app-card"><strong>Sentinel Lab</strong>: <a href="#">Bajaj Vehicle Tracker</a> (Play Store)</div>
-      <div class="app-card"><strong>Brisham</strong>: <a href="#">Vendor Ecommerce App</a></div>
-      <div class="app-card"><strong>Thakur International</strong>: <a href="#">Food Order System</a></div>
-      <div class="app-card"><strong>Extra</strong>: <a href="#">Kinniho</a> – E-Commerce with Khalti</div>
-      <div class="app-card"><strong>Extra</strong>: <a href="https://github.com">Simple App (Udemy Course)</a></div>
-      <div class="app-card"><strong>Extra</strong>: <a href="https://github.com">Number Trivia App</a></div>
+      <h2>Applications Developed</h2>
+
+      <h3>AB Group – Flutter Developer (Feb 2023 – May 2024)</h3>
+      <div class="app-block">
+        <p><strong>Restorma</strong> – Restaurant Management App</p>
+        <p>POS, multi-role, waiter/admin views</p>
+        <p class="store-links"><a href="#">Play Store</a> | <a href="#">App Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>MyPeopler</strong> – Employee Management</p>
+        <p>Employee listing, reporting</p>
+        <p class="store-links"><a href="#">Play Store</a> | <a href="#">App Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Proc MIS</strong> – Workflow Process Management</p>
+        <p>Task management and reporting</p>
+        <p class="store-links"><a href="#">Play Store</a> | <a href="#">App Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>PBS Nepal</strong> – Employee Tracking</p>
+        <p>GPS background tracking</p>
+        <p class="store-links"><a href="#">Play Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Lyceex</strong> – School Management</p>
+        <p>Class schedules, reports</p>
+        <p class="store-links"><a href="#">Play Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Hospital Care Plus</strong> – Patient App</p>
+        <p>Appointments and medications</p>
+        <p class="store-links"><a href="#">Play Store</a> | <a href="#">App Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Pharmacy Hospital Care Plus</strong></p>
+        <p>Medicine ordering, inventory</p>
+        <p class="store-links"><a href="#">Play Store</a> | <a href="#">App Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Restorma Chef</strong></p>
+        <p>Kitchen order interface</p>
+        <p class="store-links"><a href="#">Play Store</a> | <a href="#">App Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Smart Gym Nepal</strong></p>
+        <p>Attendance & training plans</p>
+        <p class="store-links"><a href="#">Play Store</a> | <a href="#">App Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Hot n Spicy Kitchen</strong></p>
+        <p>Food ordering for customers</p>
+        <p class="store-links"><a href="#">Play Store</a> | <a href="#">App Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Blushrush Nepal</strong> – E-commerce</p>
+        <p>Product listing, payment gateway</p>
+        <p class="store-links"><a href="#">Play Store</a> | <a href="#">App Store</a></p>
+      </div>
+
+      <h3>Easy Assurance – Flutter Developer (Jun 2022 – Nov 2022)</h3>
+      <div class="app-block">
+        <p><strong>Smart Karobaar</strong> – Trading & Analytics</p>
+        <p class="store-links"><a href="#">Play Store</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Saathi</strong> – Ride Sharing</p>
+        <p>Ride booking and user mgmt.</p>
+      </div>
+      <div class="app-block">
+        <p><strong>CPN-US</strong> – Political App</p>
+        <p>News, media, member listing</p>
+        <p class="store-links"><a href="https://github.com">GitHub</a></p>
+      </div>
+      <div class="app-block">
+        <p><strong>Contact List App</strong></p>
+        <p>Employee directory</p>
+        <p class="store-links"><a href="https://github.com">GitHub</a></p>
+      </div>
+
+      <h3>Sentinel Lab – Flutter Developer (Aug 2022 – Nov 2022)</h3>
+      <div class="app-block">
+        <p><strong>Bajaj Vehicle Tracker</strong></p>
+        <p class="store-links"><a href="#">Play Store</a></p>
+      </div>
+
+      <h3>Brisham – Flutter Developer (Oct 2021 – Mar 2022)</h3>
+      <div class="app-block">
+        <p><strong>Vendor E-commerce App</strong></p>
+        <p>REST API, Google Maps, OneSignal</p>
+      </div>
+
+      <h3>Thakur International – Flutter Developer (Aug 2020 – Jun 2021)</h3>
+      <div class="app-block">
+        <p><strong>Food Order App</strong></p>
+        <p>Cart & PayPal Integration</p>
+      </div>
+
     </section>
 
     <section id="contact">
@@ -97,6 +188,7 @@
       <p>Location: Sydney, Australia</p>
     </section>
   </div>
+
   <footer>
     &copy; 2025 Spandan Bhandari. All rights reserved.
   </footer>
