@@ -126,15 +126,19 @@
     &copy; 2025 Spandan Bhandari. All rights reserved.
   </footer>
 
+  
+
   <script>
-    function scrollLeft(button) {
-      const wrapper = button.nextElementSibling;
-      wrapper.scrollBy({ left: -300, behavior: 'smooth' });
-    }
-    function scrollRight(button) {
-      const wrapper = button.previousElementSibling;
-      wrapper.scrollBy({ left: 300, behavior: 'smooth' });
-    }
-  </script>
+  function scrollLeft(button) {
+    const wrapper = button.closest('.slider-container').querySelector('.slider-wrapper');
+    wrapper.scrollBy({ left: -300, behavior: 'smooth' });
+  }
+
+  function scrollRight(button) {
+    const wrapper = button.closest('.slider-container').querySelector('.slider-wrapper');
+    wrapper.scrollBy({ left: 300, behavior: 'smooth' });
+  }
+</script>
+
 </body>
 </html>
