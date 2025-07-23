@@ -129,16 +129,17 @@
   
 
   <script>
-  function scrollLeft(button) {
-    const wrapper = button.closest('.slider-container').querySelector('.slider-wrapper');
-    wrapper.scrollBy({ left: -300, behavior: 'smooth' });
-  }
+    function scrollLeft(button) {
+      const wrapper = button.closest('.slider-container').querySelector('.slider-wrapper');
+      wrapper.scrollBy({ left: -300, behavior: 'smooth' });
+    }
 
-  function scrollRight(button) {
-    const wrapper = button.closest('.slider-container').querySelector('.slider-wrapper');
-    wrapper.scrollBy({ left: 300, behavior: 'smooth' });
-  }
-</script>
+    function scrollRight(button) {
+      const wrapper = button.closest('.slider-container').querySelector('.slider-wrapper');
+      wrapper.scrollBy({ left: 300, behavior: 'smooth' });
+    }
+  </script>
+
 
 </body>
 </html>
